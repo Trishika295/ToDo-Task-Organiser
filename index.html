@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+   <div class="Container">
+    <h1><center>To-Do List </center></h1>
+     <div class="stats-container">
+        <div class="stats-numbers">
+        <div class="details"></div>
+            <h1>Task Planner</h1>
+            <p>Keep it up!!</p>
+            <div id="progressBar">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <div class="numbers">
+            <p id="numbers">0/0</p>
+        </div>
+     </div>
+
+     <form action="">
+        <input type="text" id="taskInput" placeholder="write your task">
+        <button id="newTask" type="button">+</button>
+     </form>
+
+     <ul id="task-list"></ul>
+   </div>
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
