@@ -6,5 +6,5 @@ Features:
 - Built using pure Vanilla JavaScript (no frameworks)
 
 site link:
-https://yourusername.github.io/repository-name/
+https://trishika295.github.io/ToDo-Task-Organiser/
 
